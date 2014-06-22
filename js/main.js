@@ -88,7 +88,7 @@ jQuery(document).ready(function($) {
 		$(".fancybox").fancybox({ padding: 0, fsBtn:false, autoSize: true, });
 	}
 	
-	$("#fancyboxvideo").click(function() {
+	$(".fancyboxvideo").click(function() {
 		$.fancybox({
 			'padding'		: 0,
 			'autoScale'		: false,
@@ -102,7 +102,7 @@ jQuery(document).ready(function($) {
 		});
 		return false;
 	});
-	
+
 	//page scroll up
 	$("#up").click(function() {
 	  $("html, body").animate({ scrollTop: 0 }, "slow");
