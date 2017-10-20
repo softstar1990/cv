@@ -166,7 +166,7 @@ function clear_errors(){
 	jQuery('#comment').removeClass('error');
 }*/
 
-
+	$( "#tabs" ).tabs();
 	
 });//end document ready
 
